@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ContentModelStore">
+    <e p="C:\Users\Alex\.Rider2019.2\system\extResources" t="IncludeRecursive" />
+    <e p="C:\Users\Alex\.Rider2019.2\system\resharper-host\local\Transient\ReSharperHost\v192\SolutionCaches\_FemilySuter.-371537956.00" t="ExcludeRecursive" />
+    <e p="D:\git\FemilySuter" t="IncludeRecursive">
+      <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
+      <e p="Assets" t="Include">
+        <e p="Scripts" t="Include">
+          <e p="PlayerController.cs" t="Include" />
+          <e p="Projectiles" t="Include">
+            <e p="Projectile.cs" t="Include" />
+          </e>
+          <e p="Spawner.cs" t="Include" />
+          <e p="UnitController.cs" t="Include" />
+          <e p="Weapons" t="Include">
+            <e p="Blastah.cs" t="Include" />
+            <e p="Weapon.cs" t="Include" />
+          </e>
+        </e>
+      </e>
+      <e p="FemilySuter.sln" t="IncludeFlat" />
+      <e p="obj" t="ExcludeRecursive" />
+      <e p="Packages" t="ExcludeRecursive" />
+      <e p="Temp\bin" t="ExcludeRecursive" />
+    </e>
+  </component>
+</project>

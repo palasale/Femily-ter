@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 2907908253968175029}
   - component: {fileID: 8131516011683071735}
   - component: {fileID: 8962109281403425118}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ship
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -139,8 +139,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2e3c873740422447801006e3b67b358, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Health: 10
+  Speed: 1
   explosionPrefab: {fileID: 212175498210617924, guid: 835ad28839b347f49950971516924bd9,
     type: 3}
+  weapon: {fileID: 0}
 --- !u!50 &8962109281403425118
 Rigidbody2D:
   serializedVersion: 4

@@ -194,6 +194,27 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1803036786 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3194973276789265013, guid: eb5de56fef179f74c9c86175bc148a4f,
+    type: 3}
+  m_PrefabInstance: {fileID: 6188130995555426103}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1803036792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1803036786}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 09745039b3dce6447ad7ab627c616ee5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  projectilePrefab: {fileID: 8058530337203133385, guid: d2ef30511e399c94f948cc4f7b6b19e8,
+    type: 3}
+  rateOfFire: 10
 --- !u!1 &2016382806 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 516549498681660852, guid: 02daa0e820f2d084db4b3507bfe9d0f7,
@@ -370,5 +391,10 @@ PrefabInstance:
       propertyPath: Speed
       value: 10
       objectReference: {fileID: 0}
+    - target: {fileID: 8131516011683071735, guid: eb5de56fef179f74c9c86175bc148a4f,
+        type: 3}
+      propertyPath: weapon
+      value: 
+      objectReference: {fileID: 1803036792}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: eb5de56fef179f74c9c86175bc148a4f, type: 3}

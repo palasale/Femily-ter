@@ -8,8 +8,11 @@ public class PlayerController : MonoBehaviour
     public float Health = 10;
     public float Speed = 1;
     public GameObject explosionPrefab;
+    [SerializeField] private Weapon weapon;
+
     private Rigidbody2D rigidBody2D;
-    
+
+
     private void OnCollisionEnter2D(Collision2D other)
     {
         var unitController = other.gameObject.GetComponent<UnitController>();
@@ -26,7 +29,6 @@ public class PlayerController : MonoBehaviour
                 Destroy(this.gameObject);
             }
         }
-        
     }
 
     void Awake()
@@ -37,22 +39,27 @@ public class PlayerController : MonoBehaviour
 
     public void Update()
     {
+        rigidBody2D.velocity = Vector2.zero;
+        
         if (Input.anyKey)
         {
-            if( Input.GetKey(KeyCode.D))
+            if (Input.GetKey(KeyCode.D))
             {
                 rigidBody2D.velocity = Vector2.right * Speed;
             }
 
-            if( Input.GetKey(KeyCode.A))
+            if (Input.GetKey(KeyCode.A))
             {
                 rigidBody2D.velocity = Vector2.left * Speed;
             }
-            
+
+            if (Input.GetKey(KeyCode.Space))
+            {
+                weapon.Fire();
+            }
         }
         else
         {
-            rigidBody2D.velocity = Vector2.zero;
         }
     }
 }
